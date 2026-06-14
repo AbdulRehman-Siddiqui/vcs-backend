@@ -5,6 +5,8 @@ const mongoURL = process.env.MONGO_URI || "mongodb+srv://sabdulrehman762_db_user
 
 mongoose.connect(mongoURL);
 
+const db = mongoose.connection;
+
 // ... keep the rest of your connection logic (db.on('connected', etc.)) below this
 
 db.on('connected', () => { console.log("Db is connected") });

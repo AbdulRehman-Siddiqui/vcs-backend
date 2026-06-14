@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require('dotenv').config();
 
-const mongoURL = process.env.MONGO_URI || 'mongodb://localhost:27017/vcs_db';
+const dbURI = process.env.MONGO_URI || "mongodb+srv://sabdulrehman762_db_user:L3jEMKuI4LBLmL7U@cluster0.clrcj5o.mongodb.net/?appName=Cluster0";
 
 mongoose.connect(mongoURL);
 

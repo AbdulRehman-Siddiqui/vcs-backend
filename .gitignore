@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Local Environment Variables
+.env
+
+# Uploads directory files
+uploads/*
+!uploads/.gitkeep
+
+# Editor/OS Configs
+.vscode/
+.DS_Store
+Thumbs.db
